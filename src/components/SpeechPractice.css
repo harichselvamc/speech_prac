@@ -1,0 +1,152 @@
+/* Center the main container and add spacing */
+.speech-container {
+  text-align: center;
+  margin-top: 50px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+/* Custom button styling */
+button {
+  padding: 12px 25px;
+  margin-top: 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Audio controls styling */
+audio {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px; /* Increased max width for better visibility */
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Center the card and set a max width */
+.card {
+  margin: 0 auto;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.card-title {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.card-body {
+  padding: 25px;
+}
+
+/* Additional button styling */
+button {
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  margin: 15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Button hover and focus effect */
+button:hover {
+  background-color: #28a745;  /* Green color when hovering */
+  transform: scale(1.05);
+}
+
+/* Back button styling */
+button.secondary {
+  background-color: #6c757d;
+  color: #fff;
+}
+
+button.secondary:hover {
+  background-color: #5a6268;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Navbar Custom Styles */
+.custom-navbar {
+  background-color: #3B5998;  /* Dark blue background */
+  padding: 15px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand-custom {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link-custom {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-right: 15px;
+  text-transform: capitalize;
+}
+
+.nav-link-custom:hover {
+  color: #FFD700;
+}
+
+/* Speech text styling */
+.poetry-text {
+  font-size: 1.2rem;
+  margin: 20px auto;
+  padding: 15px;
+  color: #333;
+  background-color: #f1f1f1;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .speech-container {
+    padding: 10px;
+    margin-top: 20px;
+  }
+
+  .card {
+    max-width: 100%;
+    padding: 10px;
+  }
+
+  .poetry-text {
+    font-size: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 10px 20px;
+  }
+
+  audio {
+    max-width: 100%;
+  }
+}

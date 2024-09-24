@@ -1,0 +1,94 @@
+/* Container for the entire page */
+.quote-card-container {
+  perspective: 1000px; /* This enables the 3D effect for the flip */
+}
+
+/* Quote card front and back styles */
+.quote-card {
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+  position: relative;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+
+/* Flip the card on click */
+.flipped .quote-card {
+  transform: rotateY(180deg);
+}
+
+/* Front of the card */
+.quote-card-front, .quote-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.quote-card-front {
+  background-color: #007bff;
+  color: white;
+}
+
+.quote-card-back {
+  background-color: #f8f9fa;
+  transform: rotateY(180deg);
+  color: #333;
+}
+
+/* Title displayed on the front side of the card */
+.quote-title {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Text displayed on the back side of the card */
+.quote-text {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Navbar Custom Styles */
+.navbar {
+  background-color: #343a40;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #fff !important;
+  margin-left: 10px;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #FFD700 !important;
+}
+
+/* Center the container and add spacing */
+.container {
+  margin-top: 50px;
+}
+
+button:focus {
+  outline: none;
+}
+
+/* Spinner centered vertically and horizontally */
+.text-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}

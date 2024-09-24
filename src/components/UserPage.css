@@ -1,0 +1,147 @@
+/* Navbar Custom Styles */
+.custom-navbar {
+  background-color: #3B5998;
+  padding: 10px 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand-custom {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.navbar-brand-custom:hover {
+  color: #f0f0f0;
+}
+
+.nav-link-custom {
+  color: #fff;
+  font-size: 1.1rem;
+  margin-right: 10px;
+}
+
+.nav-link-custom:hover {
+  color: #FFD700;
+}
+
+/* Yoga Card Styles */
+.yoga-card {
+  background: #fff;
+  border: 1px solid #eaeaea;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 20px; /* Adjust the margin to reduce gap */
+}
+
+.yoga-card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.yoga-card .card-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.yoga-card .card-text {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Adjust margins between cards */
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Button Styles */
+.btn-primary, .btn-info {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+.small-logout-btn {
+  padding: 4px 12px;
+  font-size: 0.875rem; /* Smaller font size */
+  border-radius: 4px;  /* Slightly rounded corners */
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.small-logout-btn:hover {
+  background-color: #ffffff;
+  color: #000;
+}
+
+.btn-secondary {
+  border-radius: 30px;
+  padding: 10px 20px;
+  font-size: 1rem;
+}
+
+/* Adjust button alignment and spacing */
+.view-more-btn {
+  margin-bottom: 10px;
+}
+
+/* Container for the carousel item */
+.carousel-item {
+  padding: 10px;  /* Reduced padding */
+}
+
+/* Adjust margin for 'View More Categories' button */
+.button-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+button:focus, input:focus {
+  outline: none !important;
+}
+
+/* Title styles */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;  /* Reduce the margin */
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+/* Additional Styling for Reducing the Gap */
+#user-page-container {
+  margin-bottom: 20px; /* Reduce overall bottom margin */
+}
+
+#view-more-btn {
+  margin-top: -30px; /* Bring the button closer to the cards */
+}
+
+.carousel-container {
+  margin-top: 20px; /* Ensure proper spacing for carousel */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .yoga-card {
+    margin-bottom: 1rem; /* Further reduce gap for small screens */
+  }
+
+  .carousel-item {
+    padding: 5px;
+  }
+
+  .text-center {
+    margin-bottom: 1rem; /* Reduce the margin for smaller screens */
+  }
+}
